@@ -7,8 +7,8 @@ authors = ["Satyam Bansal<satyambnsal@gmail.com>"]
 
 [dependencies]
 argh = "0.1"
-indicatif = "0.16"
-console = "0.15"
+console = { version = "0.16.0", features = ["std"] }
+indicatif = "0.16.2"
 notify = "4.0"
 toml = "0.5"
 regex = "1.5"
