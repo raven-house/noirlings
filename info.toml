@@ -572,3 +572,12 @@ hint = """
 For a triangle with sides a and b, the third side c must satisfy |a - b| < c < a + b. 
 Since sides are integers, the maximum c is a + b - 1.
 """
+
+[[exercises]]
+name = "range2"
+path = "exercises/puzzles/range2.nr"
+mode = "test"
+hint = """
+To check if a number a is strictly within the range of lowerbound and upperbound, ensure lowerbound < a < upperbound.
+Use comparison operators to verify a is greater than lowerbound and less than upperbound.
+"""
