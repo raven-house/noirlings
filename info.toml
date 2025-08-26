@@ -581,3 +581,11 @@ hint = """
 To check if a number a is strictly within the range of lowerbound and upperbound, ensure lowerbound < a < upperbound.
 Use comparison operators to verify a is greater than lowerbound and less than upperbound.
 """
+
+[[exercises]]
+name = "typecast"
+path = "exercises/typecast/typecast.nr"
+mode = "test"
+hint = """
+Fields in Noir cannot be directly compared. Cast the Field inputs to a uint type (e.g., u64) using `as u64` before performing the greater-than comparison.
+"""
