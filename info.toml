@@ -562,3 +562,13 @@ pub fn neg(self) -> EmbeddedCurvePoint {
     }
 ```
 """
+
+
+[[exercises]]
+name = "triangle_range"
+path = "exercises/puzzles/triangle_range.nr"
+mode = "test"
+hint = """
+For a triangle with sides a and b, the third side c must satisfy |a - b| < c < a + b. 
+Since sides are integers, the maximum c is a + b - 1.
+"""
