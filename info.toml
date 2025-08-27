@@ -616,3 +616,15 @@ let calc = || {
 };
 ```
 """
+
+[[exercises]]
+name = "closure2"
+path = "exercises/lambda/closure2.nr"
+mode = "test"
+hint = """
+```
+let multiply = |z| {
+        x * z
+};
+```
+"""
