@@ -2,6 +2,8 @@
 // There are three inputs "a", "lowerbound" and "upperbound". If 'a' is within
 // the range of the two other inputs, output 1, else output 0.
 
+// I AM NOT DONE
+
 fn main(a : u64, lowerbound : pub u64, upperbound : pub u64) -> pub u64 {
   // your code here
 }

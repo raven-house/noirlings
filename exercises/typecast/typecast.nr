@@ -3,6 +3,8 @@
 // Noir. To make the comparison work, you must cast them to a valid uint type
 // first. Then, perform the comparison and return the result.
 
+// I AM NOT DONE
+
 fn main(x : Field, y : pub Field) -> pub bool {
   // your code here
 }
