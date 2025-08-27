@@ -602,3 +602,17 @@ let add = |a, b|  {
     add(x, y)
 ```
 """
+
+[[exercises]]
+name = "closure1"
+path = "exercises/lambda/closure1.nr"
+mode = "test"
+hint = """
+```
+let base = 10;
+let multiplier = 3;
+let calc = || {
+    base + (x * multiplier)
+};
+```
+"""
