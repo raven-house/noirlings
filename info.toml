@@ -589,3 +589,16 @@ mode = "test"
 hint = """
 Fields in Noir cannot be directly compared. Cast the Field inputs to a uint type (e.g., u64) using `as u64` before performing the greater-than comparison.
 """
+
+[[exercises]]
+name = "lambda1"
+path = "exercises/lambda/lambda1.nr"
+mode = "test"
+hint = """
+```
+let add = |a, b|  {
+        a + b
+    };
+    add(x, y)
+```
+"""
