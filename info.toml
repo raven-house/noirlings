@@ -628,3 +628,22 @@ let multiply = |z| {
 };
 ```
 """
+
+[[exercises]]
+name = "closure3"
+path = "exercises/lambda/closure3.nr"
+mode = "test"
+hint = """
+```
+let decide = || {
+let sum = x + y;
+let sum_uint = sum as u64;
+let threshold_uint = threshold as u64;
+if sum_uint > threshold_uint {
+    sum
+} else {
+    x
+}
+};
+```
+"""
