@@ -13,7 +13,7 @@ fn foo<Env>(f: fn[Env]() -> Field) -> Field {
 fn main(x : Field, y : pub Field) -> pub Field {
     let threshold = 100;
     // TODO: Create a closure that captures x, y, and threshold, returning x + y if (x + y) > threshold else x
-    
+    // let decide = ???
     // DO NOT MODIFY BELOW THIS LINE
     foo(decide)
 }

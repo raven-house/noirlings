@@ -524,8 +524,13 @@ name = "range2"
 path = "exercises/puzzles/range2.nr"
 mode = "test"
 hint = """
-To check if a number a is strictly within the range of lowerbound and upperbound, ensure lowerbound < a < upperbound.
-Use comparison operators to verify a is greater than lowerbound and less than upperbound.
+```
+if a >= lowerbound && a <= upperbound {
+    1
+  } else {
+    0
+  }
+```
 """
 
 [[exercises]]

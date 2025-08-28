@@ -11,7 +11,7 @@ fn foo<Env>(f: fn[Env]() -> Field) -> Field {
 
 fn main(x : Field) -> pub Field {
     // TODO: Create a closure that captures base, multiplier, and x, returning base + (x * multiplier)
-    
+    // let calc = ???
     // DO NOT MODIFY BELOW THIS LINE
     foo(calc)
 }
