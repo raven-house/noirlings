@@ -510,6 +510,95 @@ fn equality(inputs: [u32;3]) -> bool {
 ```
 """
 
+[[exercises]]
+name = "triangle_range"
+path = "exercises/puzzles/triangle_range.nr"
+mode = "test"
+hint = """
+For a triangle with sides a and b, the third side c must satisfy |a - b| < c < a + b. 
+Since sides are integers, the maximum c is a + b - 1.
+"""
+
+[[exercises]]
+name = "range2"
+path = "exercises/puzzles/range2.nr"
+mode = "test"
+hint = """
+```
+if a >= lowerbound && a <= upperbound {
+    1
+  } else {
+    0
+  }
+```
+"""
+
+[[exercises]]
+name = "typecast"
+path = "exercises/typecast/typecast.nr"
+mode = "test"
+hint = """
+Fields in Noir cannot be directly compared. Cast the Field inputs to a uint type (e.g., u64) using `as u64` before performing the greater-than comparison.
+"""
+
+[[exercises]]
+name = "lambda1"
+path = "exercises/lambda/lambda1.nr"
+mode = "test"
+hint = """
+```
+let add = |a, b|  {
+        a + b
+    };
+    add(x, y)
+```
+"""
+
+[[exercises]]
+name = "closure1"
+path = "exercises/lambda/closure1.nr"
+mode = "test"
+hint = """
+```
+let base = 10;
+let multiplier = 3;
+let calc = || {
+    base + (x * multiplier)
+};
+```
+"""
+
+[[exercises]]
+name = "closure2"
+path = "exercises/lambda/closure2.nr"
+mode = "test"
+hint = """
+```
+let multiply = |z| {
+        x * z
+};
+```
+"""
+
+[[exercises]]
+name = "closure3"
+path = "exercises/lambda/closure3.nr"
+mode = "test"
+hint = """
+```
+let decide = || {
+let sum = x + y;
+let sum_uint = sum as u64;
+let threshold_uint = threshold as u64;
+if sum_uint > threshold_uint {
+    sum
+} else {
+    x
+}
+};
+```
+"""
+
 
 [[exercises]]
 name = "pedersen_hash"
@@ -562,3 +651,4 @@ pub fn neg(self) -> EmbeddedCurvePoint {
     }
 ```
 """
+
